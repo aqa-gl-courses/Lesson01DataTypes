@@ -2,34 +2,26 @@ package com.aqacourses.test;
 
 public class DataTypes {
 
-    public static void main(String[] args) {
-        boolean varBoolean = true;
+    public static void main(String[] args) {   //psvm
+
+        boolean varBoolean = false;
         char varChar = '\u266B';
-        byte varByte = 25;
-        short varShort = 2345;
-        int varInt = 234223425;
-        long varLong = 2342323232423434L;
-        float varFloat = 24.67f;
-        double varDouble = 234234.4523;
+        byte varByte = 125;
+        short varShort = 23423;
+        int varInt = 24234234;
+        long varLong = 234234234234l;
+        float varFloat = 23.4f;
+        double varDouble = 45.6;
 
-        System.out.println(varBoolean);
-        System.out.println(varChar);
-        System.out.println(varByte);
-        System.out.println(varShort);
-        System.out.println(varInt);
-        System.out.println(varLong);
-        System.out.println(varFloat);
-        System.out.println(varDouble);
+        String varString = "This is a test string";
 
+
+        System.err.println(); // serr
+
+        varInt = varByte;
         varShort = (short) varInt;
-        System.err.println(varShort);
 
-        String testString = "test";
-
-        System.err.println();
-
-
-
+        System.out.println(varShort); //sout
 
     }
 

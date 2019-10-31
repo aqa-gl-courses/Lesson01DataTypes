@@ -4,14 +4,20 @@ public class Arrays {
 
     public static void main(String[] args) {
 
-        int[] intArray = new int[10];
-        intArray[9] = 34;
-        System.out.println();
+        int[] intArray = new int[50];
 
-        String[] stringArray = {
-                "One", "Two", "three"
+        int[] intArrayNotEmpty = {
+          10, 45, 46
         };
-        System.out.println(stringArray);
+
+        System.out.println(intArrayNotEmpty[2]);
+
+        String[][] stringArray = {
+                {"One", "Two", "Three"},
+                {"One", "Two", "Three"},
+                {"One", "Two", "Three"},
+                {"One", "Two", "Three"},
+        };
 
     }
 
